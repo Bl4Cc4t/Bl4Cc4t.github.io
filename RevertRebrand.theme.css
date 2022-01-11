@@ -4,7 +4,7 @@
   * @donate https://github.com/sponsors/CanadaHonk
   * @description Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
   * @invite neMncS2
-  * @source https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/RevertRebrand.theme.css
+  * @source https://bl4cc4t.github.io/src/RevertRebrand.theme.css
   * @website https://github.com/Goose-Nest/GT-RevertRebrand
   * @version 5.1
 */
@@ -12,43 +12,43 @@
 /* If you do not want some things reverted, commend out imports like /* @import url("...") */
 
 /* [Recommended] Revert CSS variables: colors, fonts */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/variables.css');
+@import url('https://bl4cc4t.github.io/src/variables.css');
 
 /* Generated hardcoded color fixes */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/hardcoded.css');
+@import url('https://bl4cc4t.github.io/src/hardcoded.css');
 
 
 /* Individual components: */
 
 /* Revert mentions */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/mentions.css');
+@import url('https://bl4cc4t.github.io/src/components/mentions.css');
 
 /* Revert reactions */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/reactions.css');
+@import url('https://bl4cc4t.github.io/src/components/reactions.css');
 
 /* Revert profile pictures */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/pfps.css');
+@import url('https://bl4cc4t.github.io/src/components/pfps.css');
 
 /* Revert folders (default colors back to old blurple) */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/folders.css');
+@import url('https://bl4cc4t.github.io/src/components/folders.css');
 
 /* Revert windows wordmark */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/wordmark.css');
+@import url('https://bl4cc4t.github.io/src/components/wordmark.css');
 
 /* [Optional] Revert new user popouts */
-/* @import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/components/userPopout.css'); */
+/* @import url('https://bl4cc4t.github.io/src/components/userPopout.css'); */
 
 
 /* General changes: */
 
 /* Revert some BD specific elements */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/general/bd.css');
+@import url('https://bl4cc4t.github.io/src/general/bd.css');
 
 /* Revert some inputs */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/general/inputs.css');
+@import url('https://bl4cc4t.github.io/src/general/inputs.css');
 
 /* Revert some SVGs (colors for smaller icons) */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/general/svgs.css');
+@import url('https://bl4cc4t.github.io/src/general/svgs.css');
 
 /* Revert some other minor things */
-@import url('https://github.com/Bl4Cc4t/GT-RevertRebrand/raw/main/src/general/other.css');
+@import url('https://bl4cc4t.github.io/src/general/other.css');
