@@ -1,44 +1,44 @@
 /* Revert reactions */
-.reaction-2A2y9y {
+[class*="reaction-"] {
   border-radius: .25rem;
   background: var(--background-modifier-selected);
 
   border: none;
 }
 
-.mentioned-xhSam7 .reaction-2A2y9y,
-.mentioned-xhSam7 .reaction-2A2y9y:hover {
+[class*="mentioned-"] [class*="reaction-"],
+[class*="mentioned-"] [class*="reaction-"]:hover {
     background-color:var(--background-modifier-accent);
 }
 
-.reaction-2A2y9y .reactionCount-1zkLcN {
+[class*="reaction-"] [class*="reactionCount-"] {
   color: var(--text-muted); /* A11Y-- */
 }
 
-.reaction-2A2y9y .reactionInner-9eVHJa {
+[class*="reaction-"] [class*="reactionInner-"] {
   padding: 0 .375rem;
 }
 
 /* Self reactions */
-.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+[class*="reaction-"][class*="reactionMe-"] [class*="reactionCount-"] {
   color: var(--brand-experiment); /* A11Y-- */
 }
 
-.mentioned-xhSam7 .reaction-2A2y9y.reactionMe-wv5HKu,
-.mentioned-xhSam7 .reactionMe-3I9gFK.reaction-2A2y9y:hover,
-.reaction-2A2y9y.reactionMe-3I9gFK {
+[class*="mentioned-"] [class*="reaction-"][class*="reactionMe-"],
+[class*="mentioned-"] [class*="reactionMe-"][class*="reaction-"]:hover,
+[class*="reaction-"][class*="reactionMe-"] {
   background-color: var(--brand-experiment-30a);
 }
 
 /* Reaction hover */
-.reaction-2A2y9y:hover .reactionCount-1zkLcN {
+[class*="reaction-"]:hover [class*="reactionCount-"] {
   color: var(--interactive-active) !important;
 }
 
-.reaction-2A2y9y:hover {
+[class*="reaction-"]:hover {
   background-color: var(--background-modifier-selected);
 }
 
-.reaction-2A2y9y.reactionMe-3I9gFK:hover {
+[class*="reaction-"][class*="reactionMe-"]:hover {
   background-color: var(--brand-experiment-40a);
 }

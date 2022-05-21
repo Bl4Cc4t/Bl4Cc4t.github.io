@@ -1,15 +1,15 @@
-.profileBanner-33-uE1 {
+[class*="profileBanner-"] {
   background: none;
 }
 
-.avatarWrapperNormal-2tu8Ts {
+[class*="avatarWrapperNormal-"] {
   left: 35%;
 }
 
-.headerTop-2y3V6H > .profileBadges-1dm1_q {
+[class*="headerTop-"] > [class*="profileBadges-"] {
   display: none;
 }
 
-.headerText-2WJ44e {
+[class*="headerText-"] {
   text-align: center;
 }

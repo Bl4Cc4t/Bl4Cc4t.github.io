@@ -1,19 +1,19 @@
 /* Role Revert in user modal */
-.role-2TIOKu{ 
+[class*="role-"]{ 
   background: transparent;
   border: 1px solid;
   border-radius: 11px;
 }
 
-.roleCircle-1EgnFN {
+[class*="roleCircle-"] {
   margin-left: 0;
 }
 
-.addButton-1_dZYu.role-2TIOKu {
+[class*="addButton-"][class*="role-"] {
   border-color: #4f545c;
 }
 
-.addButtonIcon-3HZ_2f {
+[class*="addButtonIcon-"] {
   width: 10px;
   height: 10px;
 }
